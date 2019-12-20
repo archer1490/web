@@ -1,0 +1,67 @@
+/*GENERAL STYLES*/
+body {
+    margin: 0;
+    background-color: #f8f4ff;
+    font-family: Arial, sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 800px;
+}
+h1 {
+    margin: 0;
+}
+h2 {
+    color: #62951f;
+}
+/*HEADER*/
+.header {
+    background-color: #191d1a;
+    height: 150px ;
+}
+.name {
+    color: #62951f;
+    height: 75px;
+    margin-top: 30px;
+    position: absolute;
+}
+.surname {
+    color: #f8f4ff;
+}
+
+.job {
+    font-size: 20px;
+}
+/*CONTENT*/
+.main_info {
+    height: 300px;
+    border: 1px solid #89898c;
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #eeeef4;
+}
+.main_info>div {
+    float: left;
+}
+.main_info>img {
+    width: 300px;
+    float: right;
+}
+.logo {
+    display: inline-block;
+    clear: left;
+}
+.logo img{
+    width: 50px;
+}
+.info {
+    margin-top: 30px;
+    padding: 0 30px;
+    border-bottom: 1px solid #89898c;
+}
+/*FOOTER*/
+.footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}

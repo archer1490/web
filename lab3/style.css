@@ -1,0 +1,40 @@
+body{
+	background-color: lightblue;
+	font-family: sans-serif;
+	padding: 5px 25px;
+	font-size: 18px;
+	width: 700px;
+	margin: auto;
+	color:#444;
+}
+
+img {
+	width: 200px
+	margin: 22px 10px 10px 0px;
+	float: left;
+}
+
+#fact_button {
+	margin-left: 25px;
+	border-radius: 6px;
+	font-size: 28px;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: green;
+	border: 3px solid #555;
+	height: 60px;
+	width: 200px;
+}
+
+button:hover{
+	opacity: .75;
+}
+
+#facts{
+	position: relative;
+	top: 30px;
+	left: 25px;
+	font-size: 30px;
+	color:green;
+}
